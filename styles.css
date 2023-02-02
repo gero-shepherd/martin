@@ -19,7 +19,7 @@ body {
     object-fit: cover;
     z-index: -1;
     filter: blur(1px) contrast(102%) brightness(100%) saturate(110%);
-    filter:  ;
+    
     
     
 }
