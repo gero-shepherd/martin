@@ -69,4 +69,8 @@ body {
     border-style: solid;
 }
 
+:hover.enter {
+  margin-top: -2px;
+    border-width: 3px;
+}
 
