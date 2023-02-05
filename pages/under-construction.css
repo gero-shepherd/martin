@@ -39,6 +39,7 @@ body {
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
     padding-right: 50px;
+    font-weight: bold;
 }
 
 
@@ -52,12 +53,15 @@ h1 {
 button {
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-color: #f69709;
+    color: black;
 
 }
 
 @media only screen and (max-width: 888px) {
     .text-container {
-        margin-top: 75%;
+        margin-top: 65%;
         color: #f69709;
       
     }
