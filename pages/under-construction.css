@@ -1,0 +1,65 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.marty-hardhat {
+    max-height: 100vh;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: scale-down;
+}
+
+.hero-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.image-container {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-end;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.text-container {
+    display: inline-flexbox;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 50px;
+}
+
+
+h1 {
+    color: #f69709;
+    font-size: 100px;
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+@media only screen and (max-width: 888px) {
+    .text-container {
+        margin-top: 75%;
+        color: #f69709;
+      
+    }
+  }
+  
