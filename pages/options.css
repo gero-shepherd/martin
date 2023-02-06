@@ -42,3 +42,8 @@ height: 55px;
 width: 55px;
 cursor: pointer;
 }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
